@@ -23,7 +23,7 @@ class Webtoon extends StatelessWidget {
               thumb: thumb,
               id: id,
             ),
-            fullscreenDialog: true,
+            // fullscreenDialog: true,
           ),
         );
       },
@@ -31,6 +31,7 @@ class Webtoon extends StatelessWidget {
         children: [
           WebtoonCard(
             thumb: thumb,
+            id: id,
           ),
           SizedBox(
             height: 10,
